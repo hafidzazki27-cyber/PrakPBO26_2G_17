@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Praktikum Pemrograman Berbasis Objek - Java - TI-2G">
+  <title>Praktikum Pemrograman Berbasis Objek</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070E"/>
+      <stop offset="45%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#070C18"/>
+    </linearGradient>
+    <radialGradient id="glowC" cx="18%" cy="12%" r="72%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowV" cx="86%" cy="88%" r="70%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E2F7FF"/>
+      <stop offset="52%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="80%" stop-color="#A78BFA" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#22D3EE" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect x="0" y="0" width="1200" height="320" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <rect width="1200" height="320" fill="url(#glowC)"/>
+    <rect width="1200" height="320" fill="url(#glowV)"/>
+
+    <g stroke="#22D3EE" stroke-width="1" stroke-opacity="0.45" fill="none">
+      <path d="M40 40h34M40 40v34"/>
+      <path d="M1160 40h-34M1160 40v34"/>
+      <path d="M40 280h34M40 280v-34"/>
+      <path d="M1160 280h-34M1160 280v-34"/>
+    </g>
+
+    <g opacity="0.5" stroke="#A78BFA" stroke-width="1.2" fill="none">
+      <path d="M905 250l26-26 26 26-26 26z"/>
+      <path d="M985 250l26-26 26 26-26 26z" fill="#A78BFA" fill-opacity="0.5"/>
+      <path d="M1065 250l26-26 26 26-26 26z"/>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#7DD3FC" fill-opacity="0.75">
+      <text x="48" y="88">&#47;&#47; OOP&#160;&#183;&#160;JAVA&#160;&#183;&#160;POLITEKNIK NEGERI MALANG</text>
+      <text x="48" y="286" fill="#A78BFA" fill-opacity="0.85">extends &#160;&#183;&#160; implements &#160;&#183;&#160; new &#160;&#183;&#160; super()</text>
+      <text x="1152" y="88" text-anchor="end" fill="#FBBF24" fill-opacity="0.85">LAB.REPORT &#47;&#47; 2026</text>
+    </g>
+
+    <text x="48" y="162" font-family="Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="url(#title)" filter="url(#soft)">PRAKTIKUM PEMROGRAMAN</text>
+    <text x="48" y="214" font-family="Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="url(#title)" filter="url(#soft)">BERBASIS OBJEK</text>
+
+    <rect x="48" y="236" width="620" height="3" rx="1.5" fill="url(#rule)"/>
+
+    <text x="48" y="266" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#94A3B8">OBJECT-ORIENTED PROGRAMMING ENGINEERING KIT</text>
+
+    <g fill="none" stroke-width="1.4">
+      <rect x="760" y="76" width="392" height="118" rx="12" stroke="#22D3EE" stroke-opacity="0.55"/>
+      <rect x="780" y="96" width="352" height="78" rx="8" stroke="#A78BFA" stroke-opacity="0.40"/>
+    </g>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#E2F7FF">
+      <text x="800" y="124">class <tspan fill="#22D3EE">Laptop</tspan> {</text>
+      <text x="800" y="146">&#160;&#160;private <tspan fill="#FBBF24">Processor</tspan> proc;</text>
+      <text x="800" y="168">}</text>
+    </g>
+
+    <g>
+      <circle cx="1016" cy="250" r="5" fill="#22D3EE">
+        <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1096" cy="250" r="5" fill="#A78BFA">
+        <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="18" fill="none" stroke="#22D3EE" stroke-opacity="0.35"/>
+</svg>
